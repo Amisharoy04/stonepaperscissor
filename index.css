@@ -1,0 +1,97 @@
+#box1{
+    height: 80px;
+    width: 1550px;
+    color: white;
+    background-color: rgb(2, 2, 32);
+    font-size: 22px;
+    padding-top:1px;
+    text-align: center;
+}
+#rock{
+    margin-left: 500px;
+    margin-top: 20px;
+    display: inline-block;
+    border: 6px solid rgb(244, 240, 240);
+     /* Set initial border color */
+     padding: 38px;
+            border-radius: 50%;
+}
+#rock:hover{
+            cursor: pointer;
+            border-color: black;
+}
+
+#paper{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 6px solid rgb(248, 241, 241);
+    /* Set initial border color */
+    padding: 39px;
+           border-radius: 50%;
+}
+    #paper:hover{
+        cursor: pointer;
+        border-color: black;
+
+}
+
+    
+    #scissor {
+        margin-left: 30px; /* Adjust margin-left as needed */
+        margin-top: 20px;
+        display: inline-block; /* Change to inline-block */
+        border: 6px solid rgb(248, 243, 243);
+     /* Set initial border color */
+     padding: 38px;
+            border-radius: 50%;
+    }
+    #scissor:hover{
+        cursor: pointer;
+        border-color: black;
+        
+    }
+    
+    
+    #userscore {
+        color: black;
+        margin-left: 700px;
+        margin-top: 40px;
+        font-size: 40px;
+    } /* Change to inline-block */
+
+    #You{
+        color: black;
+        margin-left: 680px;
+        margin-top: -20px;
+        font-size: 40px;
+    }
+
+    #compscore {
+        color: black;
+        margin-left: 900px;
+        margin-top: -150px;
+        font-size: 40px;
+    } /* Change to inline-block */
+
+    #comp{
+        color: black;
+        margin-left: 880px;
+        margin-top: -25px;
+        font-size: 40px;
+    }
+
+    button{
+        background-color: rgb(4, 4, 32);
+        text-align: center;
+        border-radius: 8px;
+        height: 55px;
+        width: 370px;
+        color: white;
+        margin-left: 650px;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+
